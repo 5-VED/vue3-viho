@@ -1,9 +1,8 @@
-import Menu from '../../Data/menu.json'
+import Menu from "../../Data/menu.json";
 
 const state = {
-  data:Menu.data,
+  data: Menu.data,
 };
-
 
 export default {
   namespaced: true,

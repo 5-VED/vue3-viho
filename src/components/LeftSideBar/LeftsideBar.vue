@@ -456,6 +456,7 @@
                   <li><a class="nav-link menu-title link-nav" href="support-ticket.html"><i data-feather="headphones"></i><span>Support Ticket</span></a></li>
                 </ul>
               </div> -->
+              <Navmenu />
         <div class="right-arrow" id="right-arrow">
           <i data-feather="arrow-right"></i>
         </div>
@@ -467,8 +468,11 @@
 </template>
 
 <script>
-export default {};
+import Navmenu from './NavMenu.vue'
+export default {
+  components: {
+    Navmenu
+  }
+};
 </script>
 
-<style>
-</style>

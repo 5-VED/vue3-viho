@@ -142,7 +142,7 @@
     <!-- Page Body Start-->
     <div class="page-body-wrapper sidebar-icon">
       <LeftsideBar />
-<Navmenu />
+<!-- <Navmenu /> -->
     </div>
   </div>
 </template>
@@ -157,7 +157,7 @@ import Notification from "./Notification.vue";
 import Bookmark from "./BookMark.vue";
 import Maximize from "./Maximize.vue";
 import Search from "./Search.vue";
-import Navmenu from '../LeftSideBar/NavMenu.vue';
+// import Navmenu from '../LeftSideBar/NavMenu.vue';
 
 export default {
   components: {
@@ -170,7 +170,7 @@ export default {
     Bookmark,
     Maximize,
     Search,
-    Navmenu
+    // Navmenu
   },
 };
 </script>
