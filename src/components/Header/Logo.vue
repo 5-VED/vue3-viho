@@ -13,17 +13,7 @@
     /></a>
   </div>
   <div class="toggle-sidebar">
-    <!-- <i
-      class="status_toggle middle"
-      data-feather="align-center"
-      id="sidebar-toggle"
-    ></i> -->
     <vue-feather type="align-center" class="status_toggle middle"></vue-feather>
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
-<style></style>

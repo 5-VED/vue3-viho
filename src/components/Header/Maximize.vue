@@ -1,6 +1,5 @@
 <template>
   <a class="text-dark" href="#!" @click="toggle_fullscreen()">
-    <!-- <i data-feather="maximize"></i> -->
     <vue-feather type="maximize"></vue-feather>
   </a>
 </template>

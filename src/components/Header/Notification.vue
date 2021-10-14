@@ -1,7 +1,6 @@
 <template>
   <li class="onhover-dropdown">
     <div class="notification-box">
-      <!-- <i data-feather="bell"></i> -->
       <vue-feather type="bell" size="15" height="15"></vue-feather>
       <span class="dot-animated"></span>
     </div>
@@ -17,7 +16,6 @@
       <li class="noti-primary">
         <div class="media">
           <span class="notification-bg bg-light-primary">
-            <!-- <i data-feather="activity"> </i> -->
             <vue-feather type="activity" size="15" height="15"></vue-feather>
           </span>
           <div class="media-body">
@@ -29,7 +27,6 @@
       <li class="noti-secondary">
         <div class="media">
           <span class="notification-bg bg-light-secondary">
-            <!-- <i data-feather="check-circle"> </i> -->
             <vue-feather
               type="check-circle"
               size="15"
@@ -45,7 +42,6 @@
       <li class="noti-success">
         <div class="media">
           <span class="notification-bg bg-light-success">
-            <!-- <i data-feather="file-text"> </i> -->
             <vue-feather type="file-text" size="15" height="15"></vue-feather>
           </span>
           <div class="media-body">
@@ -57,7 +53,6 @@
       <li class="noti-danger">
         <div class="media">
           <span class="notification-bg bg-light-danger">
-            <!-- <i data-feather="user-check"> </i> -->
             <vue-feather type="user-check" size="15" height="15"></vue-feather>
           </span>
           <div class="media-body">
@@ -69,9 +64,3 @@
     </ul>
   </li>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style></style>

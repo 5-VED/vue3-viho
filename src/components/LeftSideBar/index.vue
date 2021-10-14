@@ -1,8 +1,7 @@
 <template>
-
-  <div class="page-body-wrapper sidebar-icon">
+  <!-- <div class="page-body-wrapper sidebar-icon"> -->
     <LeftsideBar />
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -11,4 +10,3 @@ export default {
   components: { LeftsideBar },
 };
 </script>
-

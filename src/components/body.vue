@@ -1,11 +1,17 @@
 <template>
   <div class="page-wrapper compact-wrapper" id="pageWrapper">
-    <Header />
-    <Leftsidebar />
+    <div class="page-main-header">
+      <Header />
+    </div>
+    <div class="page-body-wrapper sidebar-icon">
+      <Leftsidebar />
+      <div class="page-body">
+        <router-view></router-view>
+      </div>
+      <Footer />
+    </div>
   </div>
-  <!-- <Footer /> -->
 </template>
-
 
 <script>
 import Header from "./Header/index.vue";
@@ -19,4 +25,3 @@ export default {
   },
 };
 </script>
-
