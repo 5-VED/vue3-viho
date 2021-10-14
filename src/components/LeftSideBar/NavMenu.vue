@@ -9,7 +9,6 @@
       </li>
 
       <!-- <li class="sidebar-main-title">
-
                     <div>
                       <h6>General</h6>
                     </div>
@@ -432,16 +431,14 @@
       >
         <!-- link title -->
         <div v-if="menuItem.type == 'headtitle'">
-          <h6>{{ menuItem.headTitle1 }}</h6>
+          <h6>{{ menuItem.headTitle }}</h6>
         </div>
-
         <!-- Sub -->
         <label
           :class="'badge badge-' + menuItem.badgeType"
           v-if="menuItem.badgeType"
           >{{ menuItem.badgeValue }}</label
         >
-
         <a
           href="javascript:void(0)"
           class="sidebar-link sidebar-title"
@@ -456,7 +453,6 @@
             <i class="fa fa-angle-right pull-right"></i>
           </div>
         </a>
-
         <!-- Link -->
         <router-link
           :to="menuItem.path"
@@ -466,7 +462,8 @@
           exact
           v-on:click="hidesecondmenu()"
         >
-          <!-- <feather :type="menuItem.icon" class="top"></feather> -->
+          <!-- <vue-feather :type="menuItem.icon" class="top"></vue-feather> -->
+          <vue-feather type="moon"></vue-feather>
           <span>
             {{ menuItem.title }}
           </span>
@@ -668,7 +665,6 @@
 
 <script>
 import { mapState } from "vuex";
-
 export default {
   name: "navmenu",
   computed: {

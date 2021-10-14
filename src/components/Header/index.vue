@@ -1,32 +1,26 @@
 <template>
-  <div class="page-wrapper compact-wrapper" id="pageWrapper">
+  <!-- <div class="page-wrapper compact-wrapper" id="pageWrapper"> -->
     <!-- Page Header Start-->
-
     <div class="page-main-header">
       <div class="main-header-right row m-0">
         <div class="main-header-left">
           <Logo />
         </div>
-
         <Search />
         <div class="nav-right col pull-right right-menu p-0">
           <ul class="nav-menus">
             <li>
               <Maximize />
             </li>
-
             <Bookmark />
             <Notification />
-
             <li>
               <Mode />
             </li>
-
             <li class="onhover-dropdown">
               <i data-feather="message-square"></i>
               <Message />
             </li>
-
             <li class="onhover-dropdown p-0">
               <LogoutButton />
             </li>
@@ -38,7 +32,7 @@
       </div>
     </div>
     <!-- Page Header Ends-->
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>

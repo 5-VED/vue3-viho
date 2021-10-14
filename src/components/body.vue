@@ -1,6 +1,9 @@
 <template>
-  <Header />
-  <Leftsidebar />
+  <div class="page-wrapper compact-wrapper" id="pageWrapper">
+    <Header />
+    <Leftsidebar />
+  </div>
+  <!-- <Footer /> -->
 </template>
 
 
@@ -12,6 +15,7 @@ export default {
   components: {
     Header,
     Leftsidebar,
+    Footer,
   },
 };
 </script>
