@@ -428,8 +428,8 @@
               >
                 <!-- link title -->
                 <div v-if="menuItem.type == 'headtitle'">
-                  <h6 class="lan-1">{{ (menuItem.headTitle1) }}</h6>
-                  <p class="lan-2">{{ (menuItem.headTitle2) }}</p>
+                  <h6>{{ (menuItem.headTitle) }}</h6>
+
                 </div>
                 <!-- Sub -->
                 <label
@@ -456,9 +456,10 @@
                   class="sidebar-link sidebar-title"
                   v-if="menuItem.type == 'link'"
                   router-link-exact-active
-                  exact v-on:click.native="hidesecondmenu()"
+                  exact v-on:click="hidesecondmenu()"
                 >
-                  <!-- <feather :type="menuItem.icon" class="top"></feather> -->
+                  <!-- <vue-feather :type="menuItem.icon" class="top"></vue-feather> -->
+                  <vue-feather type="moon"></vue-feather>
                   <span>
                     {{ (menuItem.title) }}
                   </span>
@@ -518,7 +519,7 @@
                       :to="childrenItem.path"
                       v-if="childrenItem.type == 'link'"
                       router-link-exact-active
-                      exact v-on:click.native="hidesecondmenu()"
+                      exact v-on:click="hidesecondmenu()"
                     >
                       {{ (childrenItem.title) }}
                       <label
@@ -558,7 +559,7 @@
                           :to="childrenSubItem.path"
                           v-if="childrenSubItem.type == 'link'"
                           router-link-exact-active
-                          exact v-on:click.native="hidesecondmenu()"
+                          exact v-on:click="hidesecondmenu()"
                         >
                           {{ (childrenSubItem.title) }}
                           <label
