@@ -6,7 +6,8 @@ import { FormWizard } from "vue-form-wizard";
 import Toasted from "vue-toasted";
 import VueSweetalert2 from "vue-sweetalert2";
 import VueTour from "vue-tour";
-import VueFeather from "vue-feather";
+import Vue from 'vue';
+import VueFeather from 'vue-feather';
 import VueApexCharts from "vue-apexcharts";
 import { Icon } from "leaflet";
 import { EditIcon } from "vue-feather";
@@ -15,13 +16,14 @@ import { EditIcon } from "vue-feather";
 import "./assets/scss/app.scss";
 
 const app = createApp(App);
+app.component(VueFeather.name, VueFeather);
 
 app
   .use(store)
   .use(router)
   .mount("#app");
 
-app.use(VueFeather);
+// app.use(VueFeather);
 
 // app.use(Toasted, {
 //   iconPack: "fontawesome",

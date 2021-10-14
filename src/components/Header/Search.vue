@@ -4,7 +4,8 @@
       <li>
         <form class="form-inline search-form">
           <div class="search-bg">
-            <i class="fa fa-search"></i>
+            <!-- <i class="fa fa-search"></i> -->
+            <vue-feather type="search" size="15" height="15"></vue-feather>
             <input
               class="form-control-plaintext"
               placeholder="Search here....."
@@ -23,5 +24,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

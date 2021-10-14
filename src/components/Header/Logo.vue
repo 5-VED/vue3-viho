@@ -13,11 +13,12 @@
     /></a>
   </div>
   <div class="toggle-sidebar">
-    <i
+    <!-- <i
       class="status_toggle middle"
       data-feather="align-center"
       id="sidebar-toggle"
-    ></i>
+    ></i> -->
+    <vue-feather type="align-center" class="status_toggle middle"></vue-feather>
   </div>
 </template>
 
@@ -25,5 +26,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

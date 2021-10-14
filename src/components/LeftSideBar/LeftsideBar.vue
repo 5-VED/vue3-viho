@@ -2,8 +2,9 @@
   <!-- Page Sidebar Start-->
   <header class="main-nav">
     <div class="sidebar-user text-center">
-      <a class="setting-primary" href="javascript:void(0)"
-        ><i data-feather="settings"></i></a
+      <a class="setting-primary" href="javascript:void(0)">
+        <!-- <i data-feather="settings"></i> -->
+        <vue-feather type="settings"></vue-feather> </a
       ><img
         class="img-90 rounded-circle"
         src="../../assets/images/dashboard/1.png"
@@ -456,7 +457,7 @@
                   <li><a class="nav-link menu-title link-nav" href="support-ticket.html"><i data-feather="headphones"></i><span>Support Ticket</span></a></li>
                 </ul>
               </div> -->
-              <Navmenu />
+        <Navmenu />
         <div class="right-arrow" id="right-arrow">
           <i data-feather="arrow-right"></i>
         </div>
@@ -468,11 +469,10 @@
 </template>
 
 <script>
-import Navmenu from './NavMenu.vue'
+import Navmenu from "./NavMenu.vue";
 export default {
   components: {
-    Navmenu
-  }
+    Navmenu,
+  },
 };
 </script>
-

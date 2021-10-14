@@ -142,7 +142,7 @@
     <!-- Page Body Start-->
     <div class="page-body-wrapper sidebar-icon">
       <LeftsideBar />
-<!-- <Navmenu /> -->
+      <!-- <Navmenu /> -->
     </div>
   </div>
 </template>
@@ -174,4 +174,3 @@ export default {
   },
 };
 </script>
-

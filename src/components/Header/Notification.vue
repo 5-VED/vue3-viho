@@ -1,7 +1,9 @@
 <template>
   <li class="onhover-dropdown">
     <div class="notification-box">
-      <i data-feather="bell"></i><span class="dot-animated"></span>
+      <!-- <i data-feather="bell"></i> -->
+      <vue-feather type="bell" size="15" height="15"></vue-feather>
+      <span class="dot-animated"></span>
     </div>
     <ul class="notification-dropdown onhover-show-div">
       <li>
@@ -14,9 +16,10 @@
       </li>
       <li class="noti-primary">
         <div class="media">
-          <span class="notification-bg bg-light-primary"
-            ><i data-feather="activity"> </i
-          ></span>
+          <span class="notification-bg bg-light-primary">
+            <!-- <i data-feather="activity"> </i> -->
+            <vue-feather type="activity" size="15" height="15"></vue-feather>
+          </span>
           <div class="media-body">
             <p>Delivery processing</p>
             <span>10 minutes ago</span>
@@ -25,9 +28,14 @@
       </li>
       <li class="noti-secondary">
         <div class="media">
-          <span class="notification-bg bg-light-secondary"
-            ><i data-feather="check-circle"> </i
-          ></span>
+          <span class="notification-bg bg-light-secondary">
+            <!-- <i data-feather="check-circle"> </i> -->
+            <vue-feather
+              type="check-circle"
+              size="15"
+              height="15"
+            ></vue-feather>
+          </span>
           <div class="media-body">
             <p>Order Complete</p>
             <span>1 hour ago</span>
@@ -36,9 +44,10 @@
       </li>
       <li class="noti-success">
         <div class="media">
-          <span class="notification-bg bg-light-success"
-            ><i data-feather="file-text"> </i
-          ></span>
+          <span class="notification-bg bg-light-success">
+            <!-- <i data-feather="file-text"> </i> -->
+            <vue-feather type="file-text" size="15" height="15"></vue-feather>
+          </span>
           <div class="media-body">
             <p>Tickets Generated</p>
             <span>3 hour ago</span>
@@ -47,9 +56,10 @@
       </li>
       <li class="noti-danger">
         <div class="media">
-          <span class="notification-bg bg-light-danger"
-            ><i data-feather="user-check"> </i
-          ></span>
+          <span class="notification-bg bg-light-danger">
+            <!-- <i data-feather="user-check"> </i> -->
+            <vue-feather type="user-check" size="15" height="15"></vue-feather>
+          </span>
           <div class="media-body">
             <p>Delivery Complete</p>
             <span>6 hour ago</span>
@@ -64,5 +74,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>
