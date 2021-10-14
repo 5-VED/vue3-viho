@@ -1,13 +1,18 @@
-<templatebar/>
-</templat>
-<Leftsidee>
+<template>
+  <Header />
+  <Leftsidebar />
+</template>
+
 
 <script>
-import Leftsidebar  from './LeftSideBar'
+import Header from "./Header/index.vue";
+import Leftsidebar from "./LeftSideBar/index.vue";
+import Footer from "./Footer.vue";
 export default {
-components:{
-  Leftsidebar
-}
-}
+  components: {
+    Header,
+    Leftsidebar,
+  },
+};
 </script>
 
