@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Index from "../components/Header/index.vue";
+// import Index from "../components/Header/index.vue";
 import Body from "../components/body.vue";
 
 //Default Routes

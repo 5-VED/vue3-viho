@@ -1,1039 +1,1064 @@
 {
-  "title": "Widgets",
-  "icon": "airplay",
-  "type": "sub",
-  "active": false,
-  "children": [
+  "data": [
     {
-      "path": "/widgets/general",
-      "title": "General",
-      "type": "link"
+      "headTitle": "General",
+      "type": "headtitle"
     },
     {
-      "path": "/widgets/chart",
-      "title": "Chart",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "PageLayout",
-  "icon": "layout",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/pageloyout/boxed",
-      "title": "Boxed",
-      "type": "link"
-    },
-    {
-      "path": "/pageloyout/rtl",
-      "title": "RTL",
-      "type": "link"
-    },
-    {
-      "path": "/pageloyout/dark",
-      "title": "Dark",
-      "type": "link"
-    },
-    {
-      "path": "/pageloyout/footer-dark",
-      "title": "Footer Dark",
-      "type": "link"
-    },
-    {
-      "path": "/pageloyout/footer-light",
-      "title": "Footer Light",
-      "type": "link"
-    },
-    {
-      "path": "/pageloyout/footer-fixed",
-      "title": "Footer Fixed",
-      "type": "link"
-    }
-  ]
-},
-{
-  "headTitle": "Components",
-  "type": "headtitle"
-},
-{
-  "title": "UI Kits",
-  "icon": "box",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/uikits/state-color",
-      "title": "State Color",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/typography",
-      "title": "Typography",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/avatars",
-      "title": "Avatars",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/helper-classes",
-      "title": "Helper Classes",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/grid",
-      "title": "Grid",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/tag-pills",
-      "title": "Tag & Pills",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/progress-bar",
-      "title": "Progressbar",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/modal",
-      "title": "Modal",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/alert",
-      "title": "Alert",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/popover",
-      "title": "Popover",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/tooltip",
-      "title": "Tooltip",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/loader",
-      "title": "Spinners",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/dropdown",
-      "title": "Dropdown",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/accordion",
-      "title": "Accordian",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/box-shadow",
-      "title": "Shadow",
-      "type": "link"
-    },
-    {
-      "path": "/uikits/lists",
-      "title": "Lists",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Bonus UI",
-  "icon": "folder-plus",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/advance/scrollable",
-      "title": "Scrollable",
-      "type": "link"
-    },
-    {
-      "path": "/advance/toastr",
-      "title": "Toaster",
-      "type": "link"
-    },
-    {
-      "path": "/advance/tour",
-      "title": "Tour",
-      "type": "link"
-    },
-    {
-      "path": "/advance/rating",
-      "title": "Rating",
-      "type": "link"
-    },
-    {
-      "path": "/advance/pagination",
-      "title": "Pagination",
-      "type": "link"
-    },
-    {
-      "path": "/advance/sweetalert",
-      "title": "SweetAlert",
-      "type": "link"
-    },
-    {
-      "path": "/advance/ribbons",
-      "title": "Ribbons",
-      "type": "link"
-    },
-    {
-      "path": "/advance/breadcrumb",
-      "title": "Breadcrumb",
-      "type": "link"
-    },
-    {
-      "path": "/advance/range-slider",
-      "title": "Range Slider",
-      "type": "link"
-    },
-    {
-      "path": "/advance/image-cropper",
-      "title": "Image Cropper",
-      "type": "link"
-    },
-    {
-      "path": "/advance/dragdrop",
-      "title": "Drag and Drop",
-      "type": "link"
-    },
-    {
-      "path": "/advance/upload",
-      "title": "Upload",
-      "type": "link"
-    },
-    {
-      "path": "/advance/sticky",
-      "title": "Sticky",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Builders",
-  "icon": "edit-3",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/builders/form-builder1",
-      "title": "Form Builder 1",
-      "type": "link"
-    },
-    {
-      "path": "/builders/form-builder2",
-      "title": "Form Builder 2",
-      "type": "link"
-    },
-    {
-      "path": "/builders/page-builder",
-      "title": "Page Builder",
-      "type": "link"
-    },
-    {
-      "path": "/builders/form-builder",
-      "title": "Form Builder",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Animation",
-  "icon": "cloud-drizzle",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/animation/animate",
-      "title": "Animate",
-      "type": "link"
-    },
-    {
-      "path": "/animation/scroll-reveal",
-      "title": "Scroll Reveal",
-      "type": "link"
-    },
-    {
-      "path": "/animation/aos-animation",
-      "title": "AOS amimation",
-      "type": "link"
-    },
-    {
-      "path": "/animation/tilt-animation",
-      "title": "Tilt Animation",
-      "type": "link"
-    },
-    {
-      "path": "/animation/wow-animation",
-      "title": "Wow Animation",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Icons",
-  "icon": "command",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/icons/flag",
-      "title": "Flag icon",
-      "type": "link"
-    },
-    {
-      "path": "/icons/fontawesome",
-      "title": "Fontawesome Icon",
-      "type": "link"
-    },
-    {
-      "path": "/icons/ico",
-      "title": "Ico Icon",
-      "type": "link"
-    },
-    {
-      "path": "/icons/themify",
-      "title": "Themify Icon",
-      "type": "link"
-    },
-    {
-      "path": "/icons/feather_icon",
-      "title": "Feather Icon",
-      "type": "link"
-    },
-    {
-      "path": "/icons/whether",
-      "title": "Whether Icon",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Buttons",
-  "icon": "cloud",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/buttons/default",
-      "title": "Default Style",
-      "type": "link"
-    },
-    {
-      "path": "/buttons/flat",
-      "title": "Flat Style",
-      "type": "link"
-    },
-    {
-      "path": "/buttons/edge",
-      "title": "Edge Style",
-      "type": "link"
-    },
-    {
-      "path": "/buttons/raised",
-      "title": "Raised Style",
-      "type": "link"
-    },
-    {
-      "path": "/buttons/group",
-      "title": "Button Group",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Charts",
-  "icon": "bar-chart",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/chart/google",
-      "title": "Google Chart",
-      "type": "link"
-    },
-    {
-      "path": "/chart/chartjs",
-      "title": "Chartjs",
-      "type": "link"
-    },
-    {
-      "path": "/chart/chartist",
-      "title": "Chartist",
-      "type": "link"
-    },
-    {
-      "path": "/chart/apexChart",
-      "title": "ApexChart",
-      "type": "link"
-    }
-  ]
-},
-{
-  "headTitle": "Forms",
-  "type": "headtitle"
-},
-{
-  "title": "Form Controls",
-  "icon": "sliders",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/forms/form-validation",
-      "title": "Form Validation",
-      "type": "link"
-    },
-    {
-      "path": "/forms/base-inputs",
-      "title": "Base Inputs",
-      "type": "link"
-    },
-    {
-      "path": "/forms/checkbox-and-radio",
-      "title": "Checkbox & Radio",
-      "type": "link"
-    },
-    {
-      "path": "/forms/input-groups",
-      "title": "Input Groups",
-      "type": "link"
-    },
-    {
-      "path": "/forms/mega-options",
-      "title": "Mega Options",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Form Widgets",
-  "icon": "package",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/forms/datepicker",
-      "title": "Datepicker",
-      "type": "link"
-    },
-    {
-      "path": "/forms/time-picker",
-      "title": "Timepicker",
-      "type": "link"
-    },
-    {
-      "path": "/forms/datetimepicker",
-      "title": "Datetimepicker",
-      "type": "link"
-    },
-    {
-      "path": "/forms/daterangepicker",
-      "title": "Daterangepicker",
-      "type": "link"
-    },
-    {
-      "path": "/forms/touchspin",
-      "title": "Touchspin",
-      "type": "link"
-    },
-    {
-      "path": "/forms/select2",
-      "title": "Select2",
-      "type": "link"
-    },
-    {
-      "path": "/forms/switch",
-      "title": "Switch",
-      "type": "link"
-    },
-    {
-      "path": "/forms/typehead",
-      "title": "Typehead",
-      "type": "link"
-    },
-    {
-      "path": "/forms/clipboard",
-      "title": "Clipboard",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Form Layouts",
-  "icon": "layout",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/forms/default-form",
-      "title": "Default Form",
-      "type": "link"
-    },
-    {
-      "path": "/forms/formwizard1",
-      "title": "Form Wizard 1",
-      "type": "link"
-    },
-    {
-      "path": "/forms/formwizard2",
-      "title": "Form Wizard 2",
-      "type": "link"
-    },
-    {
-      "path": "/forms/formwizard3",
-      "title": "Form Wizard 3",
-      "type": "link"
-    }
-  ]
-},
-{
-  "headTitle": "Table",
-  "type": "headtitle"
-},
-{
-  "title": "Bootstrap Tables",
-  "icon": "server",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/table/basic",
-      "title": "Basic Tables",
-      "type": "link"
-    },
-    {
-      "path": "/table/sizing",
-      "title": "Sizing Tables",
-      "type": "link"
-    },
-    {
-      "path": "/table/border",
-      "title": "Border Tables",
-      "type": "link"
-    },
-    {
-      "path": "/table/styling",
-      "title": "Styling Tables",
-      "type": "link"
-    },
-    {
-      "path": "/table/table-components",
-      "title": "Table Components",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Data Tables",
-  "icon": "database",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/table/datatable-basic",
-      "title": "Basic Init",
-      "type": "link"
-    },
-    {
-      "path": "/table/advanc-init",
-      "title": "Advance Init",
-      "type": "link"
-    },
-    {
-      "path": "/table/styling",
-      "title": "Styling",
-      "type": "link"
-    },
-    {
-      "path": "/table/ajax",
-      "title": "AJAX",
-      "type": "link"
-    },
-    {
-      "path": "/table/server-side",
-      "title": "Server Side",
-      "type": "link"
-    },
-    {
-      "path": "/table/plugin",
-      "title": "Plug-in",
-      "type": "link"
-    },
-    {
-      "path": "/table/api",
-      "title": "API",
-      "type": "link"
-    },
-    {
-      "path": "/table/datasources",
-      "title": "Data Sources",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Ex. Data Tables",
-  "icon": "hard-drive",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/table/autofill",
-      "title": "Auto Fill",
-      "type": "link"
-    },
-    {
-      "path": "/table/basicbutton",
-      "title": "Basic Button",
-      "type": "link"
-    },
-    {
-      "path": "/table/column-recorder",
-      "title": "Column Recorder",
-      "type": "link"
-    },
-    {
-      "path": "/table/fixed-header",
-      "title": "Fixed Header",
-      "type": "link"
-    },
-    {
-      "path": "/table/key-table",
-      "title": "Key Table",
-      "type": "link"
-    },
-    {
-      "path": "/table/response",
-      "title": "Response",
-      "type": "link"
-    },
-    {
-      "path": "/table/row-reorder",
-      "title": "Row Reorder",
-      "type": "link"
-    },
-    {
-      "path": "/table/scroller",
-      "title": "Scroller",
-      "type": "link"
-    }
-  ]
-},
-{
-  "path": "/table/js-grid-table",
-  "title": "Js Grid Table",
-  "icon": " file-text",
-  "type": "sub"
-},
-{
-  "headTitle": "Applications",
-  "type": "headtitle"
-},
-{
-  "title": "Project",
-  "icon": "box",
-  "type": "sub",
-  "badgeType": "light-secondary",
-  "badgeValue": "new",
-  "active": false,
-  "children": [
-    {
-      "path": "/project/projectlist",
-      "title": "Project list",
-      "type": "link"
-    },
-    {
-      "path": "/project/create-project",
-      "title": "Create new",
-      "type": "link"
-    }
-  ]
-},
-{
-  "path": "/app/filemanager",
-  "title": "File manager",
-  "icon": "git-pull-request",
-  "type": "link",
-  "active": false
-},
-{
-  "path": "/app/kanban",
-  "title": "Kanban Board",
-  "icon": "monitor",
-  "type": "link",
-  "badgeType": "light-danger",
-  "badgeValue": "latest",
-  "active": false
-},
-{
-  "title": "Ecommerce",
-  "icon": "shopping-bag",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/ecommerce/product",
-      "title": "Product",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/productpage",
-      "title": "Product Page",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/product-list",
-      "title": "Product List",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/order-history",
-      "title": "Order History",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/invoice",
-      "title": "Invoice",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/cart",
-      "title": "Cart",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/wishlist",
-      "title": "Wishlist",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/checkout",
-      "title": "Checkout",
-      "type": "link"
-    },
-    {
-      "path": "/ecommerce/pricing",
-      "title": "Pricing",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Email",
-  "icon": "mail",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/mail/mail-inbox",
-      "title": "Mail Inbox",
-      "type": "link"
-    },
-    {
-      "path": "/mail/read-mail",
-      "title": "Read Mail",
-      "type": "link"
-    },
-    {
-      "path": "/mail/compose",
-      "title": "Compose",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Chat",
-  "icon": "message-circle",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/chat/chat-app",
-      "title": "Chat App",
-      "type": "link"
-    },
-    {
-      "path": "/chat/video-app",
-      "title": "Video App",
-      "type": "link"
-    }
-  ]
-},
-{
-  "title": "Users",
-  "icon": "users",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "path": "/user/user-profile",
-      "title": "User Profile",
-      "type": "link"
-    },
-    {
-      "path": "/user/user-edit",
-      "title": "User Edit",
-      "type": "link"
-    },
-    {
-      "path": "/user/user-cards",
-      "title": "User Cards",
-      "type": "link"
-    }
-  ]
-},
-{
-  "path": "/app/bookmark",
-  "title": "Bookmark",
-  "icon": "heart",
-  "type": "link",
-  "bookmark": true
-},
-{
-  "path": "/app/contacts",
-  "title": "Contacts",
-  "icon": "list",
-  "type": "link",
-  "bookmark": true
-},
-{
-  "path": "/app/task",
-  "title": "Tasks",
-  "icon": "check-square",
-  "type": "link",
-  "bookmark": true
-},
-{
-  "path": "/app/calendar",
-  "title": "Calendar",
-  "icon": "calendar",
-  "type": "link",
-  "bookmark": true
-},
-{
-  "path": "/pages/social-app",
-  "title": "Social App",
-  "icon": "zap",
-  "type": "link"
-},
-{
-  "path": "/app/todo",
-  "title": "Todo",
-  "icon": "clock",
-  "type": "link"
-},
-{
-  "path": "/pages/search",
-  "title": "Search results",
-  "icon": "search",
-  "type": "link"
-},
-{
-  "headTitle": "Pages",
-  "type": "headtitle"
-},
-{
-  "path": "/pages/landing-page",
-  "title": "Landing Page",
-  "icon": "navigation-2",
-  "type": "link"
-},
-{
-  "path": "/pages/sample-page",
-  "title": "Sample Page",
-  "icon": "file",
-  "type": "link"
-},
-{
-  "path": "/pages/internalization",
-  "title": "internalization",
-  "icon": "aperture",
-  "type": "link"
-},
-{
-  "path": "/pages/starter-kit",
-  "title": "Starter Kit",
-  "icon": "anchor",
-  "type": "link"
-},
-{
-  "path": "/pages/starter-kit",
-  "title": "Starter Kit",
-  "icon": "anchor",
-  "type": "link"
-},
-{
-  "title": "Others",
-  "icon": "layers",
-  "type": "sub",
-  "active": false,
-  "children": [
-    {
-      "title": "Error Page",
+      "title": "Dashboard",
+      "icon": "home",
       "type": "sub",
       "active": false,
       "children": [
         {
-          "path": "/page/others/errorpage1",
-          "title": "Error Page 1",
+          "path": "/dashboard/default",
+          "title": "Default",
           "type": "link"
         },
         {
-          "path": "/page/others/errorpage2",
-          "title": "Error Page 2",
+          "path": "/dashboard/ecommerce",
+          "title": "E-Commerce",
+          "type": "link"
+        }
+      ]
+    },{
+      "title": "Widgets",
+      "icon": "airplay",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/widgets/general",
+          "title": "General",
           "type": "link"
         },
         {
-          "path": "/page/others/errorpage3",
-          "title": "Error Page 3",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/errorpage4",
-          "title": "Error Page 4",
+          "path": "/widgets/chart",
+          "title": "Chart",
           "type": "link"
         }
       ]
     },
     {
-      "title": "Authencation",
+      "title": "PageLayout",
+      "icon": "layout",
       "type": "sub",
       "active": false,
       "children": [
         {
-          "path": "/page/others/login-simple",
-          "title": "Login Simple",
+          "path": "/pageloyout/boxed",
+          "title": "Boxed",
           "type": "link"
         },
         {
-          "path": "/page/others/loginwith-bg-image",
-          "title": "Loin with bg image",
+          "path": "/pageloyout/rtl",
+          "title": "RTL",
           "type": "link"
         },
         {
-          "path": "/page/others/login-with-imate-two",
-          "title": "Login with image two",
+          "path": "/pageloyout/dark",
+          "title": "Dark",
           "type": "link"
         },
         {
-          "path": "/page/others/login-with-validation",
-          "title": "Login with validation",
+          "path": "/pageloyout/footer-dark",
+          "title": "Footer Dark",
           "type": "link"
         },
         {
-          "path": "/page/others/login-with-tooltip",
-          "title": "Login with tooltip",
+          "path": "/pageloyout/footer-light",
+          "title": "Footer Light",
           "type": "link"
         },
         {
-          "path": "/page/others/login-with-sweetalert",
-          "title": "Login with Sweetalert",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/register-simple",
-          "title": "Register Simple",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/registerwith-bg-image",
-          "title": "Register with Bg image",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/register-with-bg-video",
-          "title": "Register with Bg Video",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/unlock-user",
-          "title": "Unlock User",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/forgot-password",
-          "title": "Forgot Password",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/crete-password",
-          "title": "Create Password",
-          "type": "link"
-        },
-        {
-          "path": "/page/others/maintanenece",
-          "title": "Maintanence",
+          "path": "/pageloyout/footer-fixed",
+          "title": "Footer Fixed",
           "type": "link"
         }
       ]
     },
     {
-      "title": "Comming Soon",
+      "headTitle": "Components",
+      "type": "headtitle"
+    },
+    {
+      "title": "UI Kits",
+      "icon": "box",
       "type": "sub",
       "active": false,
       "children": [
         {
-          "path": "/page/others/comingsimple",
-          "title": "Coming Simple",
+          "path": "/uikits/state-color",
+          "title": "State Color",
           "type": "link"
         },
         {
-          "path": "/page/others/coming-with-bgvideo",
-          "title": "Coming with Bg video",
+          "path": "/uikits/typography",
+          "title": "Typography",
           "type": "link"
         },
         {
-          "path": "/page/others/coming-with-bgimage",
-          "title": "Coming with Bg Image",
+          "path": "/uikits/avatars",
+          "title": "Avatars",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/helper-classes",
+          "title": "Helper Classes",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/grid",
+          "title": "Grid",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/tag-pills",
+          "title": "Tag & Pills",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/progress-bar",
+          "title": "Progressbar",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/modal",
+          "title": "Modal",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/alert",
+          "title": "Alert",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/popover",
+          "title": "Popover",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/tooltip",
+          "title": "Tooltip",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/loader",
+          "title": "Spinners",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/dropdown",
+          "title": "Dropdown",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/accordion",
+          "title": "Accordian",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/box-shadow",
+          "title": "Shadow",
+          "type": "link"
+        },
+        {
+          "path": "/uikits/lists",
+          "title": "Lists",
           "type": "link"
         }
       ]
     },
     {
-      "title": "Email Templates",
+      "title": "Bonus UI",
+      "icon": "folder-plus",
       "type": "sub",
-        "active": false,
+      "active": false,
       "children": [
         {
-          "path": "/page/others/basicemail",
-          "title": "Basic Email",
+          "path": "/advance/scrollable",
+          "title": "Scrollable",
           "type": "link"
         },
         {
-          "path": "/page/others/basic-with-header",
-          "title": "Basic With Header",
+          "path": "/advance/toastr",
+          "title": "Toaster",
           "type": "link"
         },
         {
-          "path": "/page/others/ecommerce-template",
-          "title": "Ecommerce Template",
+          "path": "/advance/tour",
+          "title": "Tour",
           "type": "link"
         },
         {
-          "path": "/page/others/email-template2",
-          "title": "Email Template 2",
+          "path": "/advance/rating",
+          "title": "Rating",
           "type": "link"
         },
         {
-          "path": "/page/others/Ecommerce Email",
-          "title": "Ecommerce Email",
+          "path": "/advance/pagination",
+          "title": "Pagination",
           "type": "link"
         },
         {
-          "path": "/page/others/order-success",
-          "title": "Order Success",
+          "path": "/advance/sweetalert",
+          "title": "SweetAlert",
           "type": "link"
+        },
+        {
+          "path": "/advance/ribbons",
+          "title": "Ribbons",
+          "type": "link"
+        },
+        {
+          "path": "/advance/breadcrumb",
+          "title": "Breadcrumb",
+          "type": "link"
+        },
+        {
+          "path": "/advance/range-slider",
+          "title": "Range Slider",
+          "type": "link"
+        },
+        {
+          "path": "/advance/image-cropper",
+          "title": "Image Cropper",
+          "type": "link"
+        },
+        {
+          "path": "/advance/dragdrop",
+          "title": "Drag and Drop",
+          "type": "link"
+        },
+        {
+          "path": "/advance/upload",
+          "title": "Upload",
+          "type": "link"
+        },
+        {
+          "path": "/advance/sticky",
+          "title": "Sticky",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Builders",
+      "icon": "edit-3",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/builders/form-builder1",
+          "title": "Form Builder 1",
+          "type": "link"
+        },
+        {
+          "path": "/builders/form-builder2",
+          "title": "Form Builder 2",
+          "type": "link"
+        },
+        {
+          "path": "/builders/page-builder",
+          "title": "Page Builder",
+          "type": "link"
+        },
+        {
+          "path": "/builders/form-builder",
+          "title": "Form Builder",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Animation",
+      "icon": "cloud-drizzle",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/animation/animate",
+          "title": "Animate",
+          "type": "link"
+        },
+        {
+          "path": "/animation/scroll-reveal",
+          "title": "Scroll Reveal",
+          "type": "link"
+        },
+        {
+          "path": "/animation/aos-animation",
+          "title": "AOS amimation",
+          "type": "link"
+        },
+        {
+          "path": "/animation/tilt-animation",
+          "title": "Tilt Animation",
+          "type": "link"
+        },
+        {
+          "path": "/animation/wow-animation",
+          "title": "Wow Animation",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Icons",
+      "icon": "command",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/icons/flag",
+          "title": "Flag icon",
+          "type": "link"
+        },
+        {
+          "path": "/icons/fontawesome",
+          "title": "Fontawesome Icon",
+          "type": "link"
+        },
+        {
+          "path": "/icons/ico",
+          "title": "Ico Icon",
+          "type": "link"
+        },
+        {
+          "path": "/icons/themify",
+          "title": "Themify Icon",
+          "type": "link"
+        },
+        {
+          "path": "/icons/feather_icon",
+          "title": "Feather Icon",
+          "type": "link"
+        },
+        {
+          "path": "/icons/whether",
+          "title": "Whether Icon",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Buttons",
+      "icon": "cloud",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/buttons/default",
+          "title": "Default Style",
+          "type": "link"
+        },
+        {
+          "path": "/buttons/flat",
+          "title": "Flat Style",
+          "type": "link"
+        },
+        {
+          "path": "/buttons/edge",
+          "title": "Edge Style",
+          "type": "link"
+        },
+        {
+          "path": "/buttons/raised",
+          "title": "Raised Style",
+          "type": "link"
+        },
+        {
+          "path": "/buttons/group",
+          "title": "Button Group",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Charts",
+      "icon": "bar-chart",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/chart/google",
+          "title": "Google Chart",
+          "type": "link"
+        },
+        {
+          "path": "/chart/chartjs",
+          "title": "Chartjs",
+          "type": "link"
+        },
+        {
+          "path": "/chart/chartist",
+          "title": "Chartist",
+          "type": "link"
+        },
+        {
+          "path": "/chart/apexChart",
+          "title": "ApexChart",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "headTitle": "Forms",
+      "type": "headtitle"
+    },
+    {
+      "title": "Form Controls",
+      "icon": "sliders",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/forms/form-validation",
+          "title": "Form Validation",
+          "type": "link"
+        },
+        {
+          "path": "/forms/base-inputs",
+          "title": "Base Inputs",
+          "type": "link"
+        },
+        {
+          "path": "/forms/checkbox-and-radio",
+          "title": "Checkbox & Radio",
+          "type": "link"
+        },
+        {
+          "path": "/forms/input-groups",
+          "title": "Input Groups",
+          "type": "link"
+        },
+        {
+          "path": "/forms/mega-options",
+          "title": "Mega Options",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Form Widgets",
+      "icon": "package",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/forms/datepicker",
+          "title": "Datepicker",
+          "type": "link"
+        },
+        {
+          "path": "/forms/time-picker",
+          "title": "Timepicker",
+          "type": "link"
+        },
+        {
+          "path": "/forms/datetimepicker",
+          "title": "Datetimepicker",
+          "type": "link"
+        },
+        {
+          "path": "/forms/daterangepicker",
+          "title": "Daterangepicker",
+          "type": "link"
+        },
+        {
+          "path": "/forms/touchspin",
+          "title": "Touchspin",
+          "type": "link"
+        },
+        {
+          "path": "/forms/select2",
+          "title": "Select2",
+          "type": "link"
+        },
+        {
+          "path": "/forms/switch",
+          "title": "Switch",
+          "type": "link"
+        },
+        {
+          "path": "/forms/typehead",
+          "title": "Typehead",
+          "type": "link"
+        },
+        {
+          "path": "/forms/clipboard",
+          "title": "Clipboard",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Form Layouts",
+      "icon": "layout",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/forms/default-form",
+          "title": "Default Form",
+          "type": "link"
+        },
+        {
+          "path": "/forms/formwizard1",
+          "title": "Form Wizard 1",
+          "type": "link"
+        },
+        {
+          "path": "/forms/formwizard2",
+          "title": "Form Wizard 2",
+          "type": "link"
+        },
+        {
+          "path": "/forms/formwizard3",
+          "title": "Form Wizard 3",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "headTitle": "Table",
+      "type": "headtitle"
+    },
+    {
+      "title": "Bootstrap Tables",
+      "icon": "server",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/table/basic",
+          "title": "Basic Tables",
+          "type": "link"
+        },
+        {
+          "path": "/table/sizing",
+          "title": "Sizing Tables",
+          "type": "link"
+        },
+        {
+          "path": "/table/border",
+          "title": "Border Tables",
+          "type": "link"
+        },
+        {
+          "path": "/table/styling",
+          "title": "Styling Tables",
+          "type": "link"
+        },
+        {
+          "path": "/table/table-components",
+          "title": "Table Components",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Data Tables",
+      "icon": "database",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/table/datatable-basic",
+          "title": "Basic Init",
+          "type": "link"
+        },
+        {
+          "path": "/table/advanc-init",
+          "title": "Advance Init",
+          "type": "link"
+        },
+        {
+          "path": "/table/styling",
+          "title": "Styling",
+          "type": "link"
+        },
+        {
+          "path": "/table/ajax",
+          "title": "AJAX",
+          "type": "link"
+        },
+        {
+          "path": "/table/server-side",
+          "title": "Server Side",
+          "type": "link"
+        },
+        {
+          "path": "/table/plugin",
+          "title": "Plug-in",
+          "type": "link"
+        },
+        {
+          "path": "/table/api",
+          "title": "API",
+          "type": "link"
+        },
+        {
+          "path": "/table/datasources",
+          "title": "Data Sources",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Ex. Data Tables",
+      "icon": "hard-drive",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/table/autofill",
+          "title": "Auto Fill",
+          "type": "link"
+        },
+        {
+          "path": "/table/basicbutton",
+          "title": "Basic Button",
+          "type": "link"
+        },
+        {
+          "path": "/table/column-recorder",
+          "title": "Column Recorder",
+          "type": "link"
+        },
+        {
+          "path": "/table/fixed-header",
+          "title": "Fixed Header",
+          "type": "link"
+        },
+        {
+          "path": "/table/key-table",
+          "title": "Key Table",
+          "type": "link"
+        },
+        {
+          "path": "/table/response",
+          "title": "Response",
+          "type": "link"
+        },
+        {
+          "path": "/table/row-reorder",
+          "title": "Row Reorder",
+          "type": "link"
+        },
+        {
+          "path": "/table/scroller",
+          "title": "Scroller",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "path": "/table/js-grid-table",
+      "title": "Js Grid Table",
+      "icon": " file-text",
+      "type": "sub"
+    },
+    {
+      "headTitle": "Applications",
+      "type": "headtitle"
+    },
+    {
+      "title": "Project",
+      "icon": "box",
+      "type": "sub",
+      "badgeType": "light-secondary",
+      "badgeValue": "new",
+      "active": false,
+      "children": [
+        {
+          "path": "/project/projectlist",
+          "title": "Project list",
+          "type": "link"
+        },
+        {
+          "path": "/project/create-project",
+          "title": "Create new",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "path": "/app/filemanager",
+      "title": "File manager",
+      "icon": "git-pull-request",
+      "type": "link",
+      "active": false
+    },
+    {
+      "path": "/app/kanban",
+      "title": "Kanban Board",
+      "icon": "monitor",
+      "type": "link",
+      "badgeType": "light-danger",
+      "badgeValue": "latest",
+      "active": false
+    },
+    {
+      "title": "Ecommerce",
+      "icon": "shopping-bag",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/ecommerce/product",
+          "title": "Product",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/productpage",
+          "title": "Product Page",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/product-list",
+          "title": "Product List",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/order-history",
+          "title": "Order History",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/invoice",
+          "title": "Invoice",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/cart",
+          "title": "Cart",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/wishlist",
+          "title": "Wishlist",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/checkout",
+          "title": "Checkout",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/pricing",
+          "title": "Pricing",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Email",
+      "icon": "mail",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/mail/mail-inbox",
+          "title": "Mail Inbox",
+          "type": "link"
+        },
+        {
+          "path": "/mail/read-mail",
+          "title": "Read Mail",
+          "type": "link"
+        },
+        {
+          "path": "/mail/compose",
+          "title": "Compose",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Chat",
+      "icon": "message-circle",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/chat/chat-app",
+          "title": "Chat App",
+          "type": "link"
+        },
+        {
+          "path": "/chat/video-app",
+          "title": "Video App",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Users",
+      "icon": "users",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/user/user-profile",
+          "title": "User Profile",
+          "type": "link"
+        },
+        {
+          "path": "/user/user-edit",
+          "title": "User Edit",
+          "type": "link"
+        },
+        {
+          "path": "/user/user-cards",
+          "title": "User Cards",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "path": "/app/bookmark",
+      "title": "Bookmark",
+      "icon": "heart",
+      "type": "link",
+      "bookmark": true
+    },
+    {
+      "path": "/app/contacts",
+      "title": "Contacts",
+      "icon": "list",
+      "type": "link",
+      "bookmark": true
+    },
+    {
+      "path": "/app/task",
+      "title": "Tasks",
+      "icon": "check-square",
+      "type": "link",
+      "bookmark": true
+    },
+    {
+      "path": "/app/calendar",
+      "title": "Calendar",
+      "icon": "calendar",
+      "type": "link",
+      "bookmark": true
+    },
+    {
+      "path": "/pages/social-app",
+      "title": "Social App",
+      "icon": "zap",
+      "type": "link"
+    },
+    {
+      "path": "/app/todo",
+      "title": "Todo",
+      "icon": "clock",
+      "type": "link"
+    },
+    {
+      "path": "/pages/search",
+      "title": "Search results",
+      "icon": "search",
+      "type": "link"
+    },
+    {
+      "headTitle": "Pages",
+      "type": "headtitle"
+    },
+    {
+      "path": "/pages/landing-page",
+      "title": "Landing Page",
+      "icon": "navigation-2",
+      "type": "link"
+    },
+    {
+      "path": "/pages/sample-page",
+      "title": "Sample Page",
+      "icon": "file",
+      "type": "link"
+    },
+    {
+      "path": "/pages/internalization",
+      "title": "internalization",
+      "icon": "aperture",
+      "type": "link"
+    },
+    {
+      "path": "/pages/starter-kit",
+      "title": "Starter Kit",
+      "icon": "anchor",
+      "type": "link"
+    },
+    {
+      "path": "/pages/starter-kit",
+      "title": "Starter Kit",
+      "icon": "anchor",
+      "type": "link"
+    },
+    {
+      "title": "Others",
+      "icon": "layers",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "title": "Error Page",
+          "type": "sub",
+          "active": false,
+          "children": [
+            {
+              "path": "/page/others/errorpage1",
+              "title": "Error Page 1",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/errorpage2",
+              "title": "Error Page 2",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/errorpage3",
+              "title": "Error Page 3",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/errorpage4",
+              "title": "Error Page 4",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "title": "Authencation",
+          "type": "sub",
+          "active": false,
+          "children": [
+            {
+              "path": "/page/others/login-simple",
+              "title": "Login Simple",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/loginwith-bg-image",
+              "title": "Loin with bg image",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/login-with-imate-two",
+              "title": "Login with image two",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/login-with-validation",
+              "title": "Login with validation",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/login-with-tooltip",
+              "title": "Login with tooltip",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/login-with-sweetalert",
+              "title": "Login with Sweetalert",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/register-simple",
+              "title": "Register Simple",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/registerwith-bg-image",
+              "title": "Register with Bg image",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/register-with-bg-video",
+              "title": "Register with Bg Video",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/unlock-user",
+              "title": "Unlock User",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/forgot-password",
+              "title": "Forgot Password",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/crete-password",
+              "title": "Create Password",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/maintanenece",
+              "title": "Maintanence",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "title": "Comming Soon",
+          "type": "sub",
+          "active": false,
+          "children": [
+            {
+              "path": "/page/others/comingsimple",
+              "title": "Coming Simple",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/coming-with-bgvideo",
+              "title": "Coming with Bg video",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/coming-with-bgimage",
+              "title": "Coming with Bg Image",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "title": "Email Templates",
+          "type": "sub",
+            "active": false,
+          "children": [
+            {
+              "path": "/page/others/basicemail",
+              "title": "Basic Email",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/basic-with-header",
+              "title": "Basic With Header",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/ecommerce-template",
+              "title": "Ecommerce Template",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/email-template2",
+              "title": "Email Template 2",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/Ecommerce Email",
+              "title": "Ecommerce Email",
+              "type": "link"
+            },
+            {
+              "path": "/page/others/order-success",
+              "title": "Order Success",
+              "type": "link"
+            }
+          ]
         }
       ]
     }

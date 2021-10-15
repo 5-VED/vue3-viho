@@ -21,7 +21,8 @@
           "type": "link"
         }
       ]
-    },{
+    },
+    {
       "title": "Widgets",
       "icon": "airplay",
       "type": "sub",
@@ -656,32 +657,8 @@
     {
       "path": "/table/js-grid-table",
       "title": "Js Grid Table",
-      "icon": " file-text",
+      "icon": "file-text",
       "type": "sub"
-    },
-    {
-      "headTitle": "Applications",
-      "type": "headtitle"
-    },
-    {
-      "title": "Project",
-      "icon": "box",
-      "type": "sub",
-      "badgeType": "light-secondary",
-      "badgeValue": "new",
-      "active": false,
-      "children": [
-        {
-          "path": "/project/projectlist",
-          "title": "Project list",
-          "type": "link"
-        },
-        {
-          "path": "/project/create-project",
-          "title": "Create new",
-          "type": "link"
-        }
-      ]
     },
     {
       "path": "/app/filemanager",
@@ -1026,7 +1003,7 @@
         {
           "title": "Email Templates",
           "type": "sub",
-            "active": false,
+          "active": false,
           "children": [
             {
               "path": "/page/others/basicemail",
