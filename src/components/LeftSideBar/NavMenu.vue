@@ -26,6 +26,7 @@
         <a
           href="javascript:void(0)"
           class="nav-link menu-title"
+          :class="{'active': menuItem.active}"
           v-if="menuItem.type == 'sub'"
           @click="setNavActive(menuItem, index)"
         >
@@ -38,7 +39,10 @@
 
           <div class="according-menu" v-if="menuItem.children">
             <!-- <i class="fa fa-angle-right"></i> -->
-            <vue-feather type="chevron-right"></vue-feather>
+            <!-- <vue-feather type="chevron-right"></vue-feather> -->
+                          <vue-feather
+                :type="menuItem.active ? 'chevron-down' : 'chevron-right'"
+              ></vue-feather>
           </div>
         </a>
 
@@ -113,11 +117,11 @@
                 >{{ childrenItem.badgeValue }}</label
               > -->
 
-              <vue-feather
-                :type="childrenItem.active ? 'chevron-down' : 'chevron-right'"
-              ></vue-feather>
+              <!-- <vue-feather
+                :type="childrenItem.active ? 'chevron-down' : 'chevron-right'" v-if="childrenItem.children"
+              ></vue-feather> -->
 
-              <i
+              <!-- <i
                 class="fa pull-right mt-1"
                 v-bind:class="[
                   childrenItem.active
@@ -125,7 +129,7 @@
                     : 'fa fa-angle-right',
                 ]"
                 v-if="childrenItem.children"
-              ></i>
+              ></i> -->
             </a>
 
             <!-- Link -->
