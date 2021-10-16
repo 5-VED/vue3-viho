@@ -161,14 +161,15 @@
         {
           "title": "Tabs",
           "type": "sub",
+          "active": false,
           "children": [
             {
-              "path": "/uikits/bootstrap-tabs",
+              "path": "/uikits/tabs/bootstrap-tabs",
               "title": "Bootstrap Tabs",
               "type": "link"
             },
             {
-              "path": "/uikits/line-tabs",
+              "path": "/uikits/tabs/line-tabs",
               "title": "Line Tabs",
               "type": "link"
             }
@@ -193,69 +194,106 @@
       "active": false,
       "children": [
         {
-          "path": "/advance/scrollable",
+          "path": "/bonusui/scrollable",
           "title": "Scrollable",
           "type": "link"
         },
         {
-          "path": "/advance/toastr",
-          "title": "Toaster",
+          "path": "/bonusui/tree-view",
+          "title": "Tree View",
           "type": "link"
         },
         {
-          "path": "/advance/tour",
+          "path": "/bonusui/tour",
           "title": "Tour",
           "type": "link"
         },
         {
-          "path": "/advance/rating",
+          "path": "/bonusui/rating",
           "title": "Rating",
           "type": "link"
         },
         {
-          "path": "/advance/pagination",
+          "path": "/bonusui/pagination",
           "title": "Pagination",
           "type": "link"
         },
         {
-          "path": "/advance/sweetalert",
+          "path": "/bonusui/sweetalert",
           "title": "SweetAlert",
           "type": "link"
         },
         {
-          "path": "/advance/ribbons",
+          "path": "/bonusui/ribbons",
           "title": "Ribbons",
           "type": "link"
         },
         {
-          "path": "/advance/breadcrumb",
+          "path": "/bonusui/breadcrumb",
           "title": "Breadcrumb",
           "type": "link"
         },
         {
-          "path": "/advance/range-slider",
+          "path": "/bonusui/range-slider",
           "title": "Range Slider",
           "type": "link"
         },
         {
-          "path": "/advance/image-cropper",
+          "path": "/bonusui/image-cropper",
           "title": "Image Cropper",
           "type": "link"
         },
         {
-          "path": "/advance/dragdrop",
+          "path": "/bonusui/dragdrop",
           "title": "Drag and Drop",
           "type": "link"
         },
         {
-          "path": "/advance/upload",
+          "path": "/bonusui/upload",
           "title": "Upload",
           "type": "link"
         },
         {
-          "path": "/advance/sticky",
+          "path": "/bonusui/sticky",
           "title": "Sticky",
           "type": "link"
+        },
+        {
+          "path": "/bonusui/basic-care",
+          "title": "Basic Card",
+          "type": "link"
+        },
+        {
+          "path": "/bonusui/creative-care",
+          "title": "Creative Card ",
+          "type": "link"
+        },
+        {
+          "path": "/bonusui/tabbed-card",
+          "title": "Tabbed Card",
+          "type": "link"
+        },
+        {
+          "path": "/bonusui/draggable-card",
+          "title": "Draggable Card",
+          "type": "link"
+        },
+        {
+          "title": "Timeline",
+          "type": "sub",
+          "active": false,
+          "children": [
+            {
+              "path": "/bonusui/timeline/timeline1",
+              "title": "Timeline 1",
+              "type": "link"
+            },
+            {
+              "path": "/bonusui/timeline/timeline2",
+              "title": "Timeline 2",
+              "type": "link"
+            }
+          ]
         }
       ]
     },
@@ -677,6 +715,35 @@
       "type": "sub"
     },
     {
+      "headTitle": "Applications",
+      "type": "headtitle"
+    },
+    {
+      "title": "Project",
+      "icon": "box",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/app/project-list",
+          "title": "Project List",
+          "type": "link"
+        },
+        {
+          "path": "/app/create-new",
+          "title": "Create New",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "path": "/app/filemanager",
+      "title": "File manager",
+      "icon": "git-pull-request",
+      "type": "sub",
+      "active": false
+    },
+    {
       "path": "/app/filemanager",
       "title": "File manager",
       "icon": "git-pull-request",
@@ -684,12 +751,10 @@
       "active": false
     },
     {
-      "path": "/app/kanban",
       "title": "Kanban Board",
+      "path": "/app/kanban",
       "icon": "monitor",
-      "type": "link",
-      "badgeType": "light-danger",
-      "badgeValue": "latest",
+      "type": "sub",
       "active": false
     },
     {
@@ -711,6 +776,11 @@
         {
           "path": "/ecommerce/product-list",
           "title": "Product List",
+          "type": "link"
+        },
+        {
+          "path": "/ecommerce/payment-details",
+          "title": "Payment Details",
           "type": "link"
         },
         {
@@ -813,47 +883,47 @@
       "path": "/app/bookmark",
       "title": "Bookmark",
       "icon": "heart",
-      "type": "link",
+      "type": "sub",
       "bookmark": true
     },
     {
       "path": "/app/contacts",
       "title": "Contacts",
       "icon": "list",
-      "type": "link",
+      "type": "sub",
       "bookmark": true
     },
     {
       "path": "/app/task",
       "title": "Tasks",
       "icon": "check-square",
-      "type": "link",
+      "type": "sub",
       "bookmark": true
     },
     {
       "path": "/app/calendar",
       "title": "Calendar",
       "icon": "calendar",
-      "type": "link",
+      "type": "sub",
       "bookmark": true
     },
     {
       "path": "/pages/social-app",
       "title": "Social App",
       "icon": "zap",
-      "type": "link"
+      "type": "sub"
     },
     {
       "path": "/app/todo",
       "title": "Todo",
       "icon": "clock",
-      "type": "link"
+      "type": "sub"
     },
     {
       "path": "/pages/search",
       "title": "Search results",
       "icon": "search",
-      "type": "link"
+      "type": "sub"
     },
     {
       "headTitle": "Pages",
@@ -863,31 +933,31 @@
       "path": "/pages/landing-page",
       "title": "Landing Page",
       "icon": "navigation-2",
-      "type": "link"
+      "type": "sub"
     },
     {
       "path": "/pages/sample-page",
       "title": "Sample Page",
       "icon": "file",
-      "type": "link"
+      "type": "sub"
     },
     {
       "path": "/pages/internalization",
       "title": "internalization",
       "icon": "aperture",
-      "type": "link"
+      "type": "sub"
     },
     {
       "path": "/pages/starter-kit",
       "title": "Starter Kit",
       "icon": "anchor",
-      "type": "link"
+      "type": "sub"
     },
     {
       "path": "/pages/starter-kit",
       "title": "Starter Kit",
       "icon": "anchor",
-      "type": "link"
+      "type": "sub"
     },
     {
       "title": "Others",
@@ -1054,6 +1124,193 @@
           ]
         }
       ]
+    },
+    {
+      "headTitle": "Miscellianous",
+      "type": "headtitle"
+    },
+    {
+      "title": "Gallery",
+      "icon": "image",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/gallery/grid-gallery",
+          "title": "Gallery Grid",
+          "type": "link"
+        },
+        {
+          "path": "/gallery/gallery-desc",
+          "title": " Gallery Grid Desc",
+          "type": "link"
+        },
+        {
+          "path": "/gallery/gallery-masonary",
+          "title": "Masonary Gallery",
+          "type": "link"
+        },
+        {
+          "path": "/gallery/gallery-masonary-desc",
+          "title": "Masonary with Desc",
+          "type": "link"
+        },
+        {
+          "path": "/gallery/hover-effect",
+          "title": "Hover Effect",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Blog",
+      "icon": "edit",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/blog/details",
+          "title": "Blog Details",
+          "type": "link"
+        },
+        {
+          "path": "/blog/single",
+          "title": "Blog Single",
+          "type": "link"
+        },
+        {
+          "path": "/blog/single",
+          "title": "Add Post",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "path": "/blog/faq",
+      "title": "FAQ",
+      "icon": "help-circle",
+      "type": "sub"
+    },
+    {
+      "title": "Job Search",
+      "icon": "user-check",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/job/cards-view",
+          "title": "Caeds View",
+          "type": "link"
+        },
+        {
+          "path": "/job/list",
+          "title": "List View",
+          "type": "link"
+        },
+        {
+          "path": "/job/details/1",
+          "title": "Job Details",
+          "type": "link"
+        },
+        {
+          "path": "/job/apply/1",
+          "title": "Apply",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Learning",
+      "icon": "layers",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/learning/list",
+          "title": "Learning List",
+          "type": "link"
+        },
+        {
+          "path": "/learning/details/1",
+          "title": "Detailed Course",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "title": "Maps",
+      "icon": "map",
+      "type": "sub",
+      "active": false,
+      "children": [
+        {
+          "path": "/maps/maps-js",
+          "title": "Maps Js",
+          "type": "link"
+        },
+        {
+          "path": "/maps/vector-maps",
+          "title": "Vector Maps",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "type": "sub",
+      "title": "Editors",
+      "icon": "git-pull-request",
+      "active": false,
+      "children": [
+        {
+          "path": "/editor/summer-note",
+          "title": "Summer Note",
+          "type": "link"
+        },
+        {
+          "path": "/editor/ck-editor",
+          "title": "Ck Editor",
+          "type": "link"
+        },
+        {
+          "path": "/editor/mde-editor",
+          "title": "MDE editor",
+          "type": "link"
+        },
+        {
+          "path": "/editor/ace-editor",
+          "title": "ACE code Editor",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "type": "sub",
+      "title": "Knowledgebase",
+      "icon": "database",
+      "active": false,
+      "children": [
+        {
+          "path": "/knowledgebase/knowledgebase",
+          "title": "Knowledgebase",
+          "type": "link"
+        },
+        {
+          "path": "/knowledgebase/knowledgebase-category",
+          "title": "Knowledgebase Category",
+          "type": "link"
+        },
+        {
+          "path": "/knowledgebase/knowledgebase-detail",
+          "title": "Knowledgebase Detail",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "path": "/pages/support",
+      "title": "Support Ticket",
+      "icon": "headphones",
+      "type": "sub"
     }
   ]
 }
