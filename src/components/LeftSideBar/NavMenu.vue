@@ -117,9 +117,9 @@
                 >{{ childrenItem.badgeValue }}</label
               > -->
 
-              <!-- <vue-feather
+              <vue-feather
                 :type="childrenItem.active ? 'chevron-down' : 'chevron-right'" v-if="childrenItem.children"
-              ></vue-feather> -->
+              ></vue-feather>
 
               <!-- <i
                 class="fa pull-right mt-1"
@@ -193,7 +193,7 @@
             <ul
               class="nav-sub-childmenu submenu-content"
               v-if="childrenItem.children"
-              :class="{ opensubchild: childrenItem.active }"
+               v-bind:style="childrenItem.active? 'display:block' : 'display:none;'"
             >
               <li
                 v-for="(childrenSubItem, index) in childrenItem.children"

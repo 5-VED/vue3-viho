@@ -1,6 +1,6 @@
 <template>
   <!-- Page Sidebar Start-->
-  <header class="main-nav">
+  <header class="main-nav" :class="{ close_icon: !togglesidebar }">
     <div class="sidebar-user text-center">
       <a class="setting-primary" href="javascript:void(0)">
         <vue-feather type="settings"></vue-feather> </a
@@ -48,10 +48,16 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 import Navmenu from "./NavMenu.vue";
 export default {
   components: {
     Navmenu,
+  },
+  computed: {
+    ...mapState({
+      togglesidebar: (state) => state.menu.togglesidebar,
+    }),
   },
 };
 </script>

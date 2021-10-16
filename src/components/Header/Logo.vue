@@ -12,8 +12,17 @@
         alt=""
     /></a>
   </div>
-  <div class="toggle-sidebar">
+  <div class="toggle-sidebar" @click="toggle_sidebar">
     <vue-feather type="align-center" class="status_toggle middle"></vue-feather>
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    toggle_sidebar() {
+      this.$store.dispatch("menu/opensidebar");
+    },
+  },
+};
+</script>

@@ -62,13 +62,13 @@
           "type": "link"
         },
         {
-          "path": "/pageloyout/footer-dark",
-          "title": "Footer Dark",
+          "path": "/pageloyout/footer-light",
+          "title": "Footer Light",
           "type": "link"
         },
         {
-          "path": "/pageloyout/footer-light",
-          "title": "Footer Light",
+          "path": "/pageloyout/footer-dark",
+          "title": "Footer Dark",
           "type": "link"
         },
         {
@@ -157,6 +157,22 @@
           "path": "/uikits/accordion",
           "title": "Accordian",
           "type": "link"
+        },
+        {
+          "title": "Tabs",
+          "type": "sub",
+          "children": [
+            {
+              "path": "/uikits/bootstrap-tabs",
+              "title": "Bootstrap Tabs",
+              "type": "link"
+            },
+            {
+              "path": "/uikits/line-tabs",
+              "title": "Line Tabs",
+              "type": "link"
+            }
+          ]
         },
         {
           "path": "/uikits/box-shadow",
