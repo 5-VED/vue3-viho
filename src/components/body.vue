@@ -5,9 +5,7 @@
     </div>
     <div class="page-body-wrapper sidebar-icon">
       <Leftsidebar />
-      <div class="page-body">
-        <router-view></router-view>
-      </div>
+      <router-view></router-view>
       <Footer />
     </div>
   </div>
