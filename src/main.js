@@ -8,7 +8,7 @@ import VueSweetalert2 from "vue-sweetalert2";
 import VueTour from "vue-tour";
 import Vue from 'vue';
 import VueFeather from 'vue-feather';
-import VueApexCharts from "vue-apexcharts";
+import VueApexCharts from "vue3-apexcharts";
 import { Icon } from "leaflet";
 import { EditIcon } from "vue-feather";
 
@@ -17,6 +17,7 @@ import "./assets/scss/app.scss";
 
 const app = createApp(App);
 app.component(VueFeather.name, VueFeather);
+app.component('apexchart', VueApexCharts);
 
 app
   .use(store)
