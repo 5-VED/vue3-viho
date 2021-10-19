@@ -1,6 +1,11 @@
 <template>
-  <vue-feather type="message-square" size="15" height="15"></vue-feather>
-  <ul class="chat-dropdown onhover-show-div">
+  <vue-feather
+    type="message-square"
+    size="15"
+    height="15"
+    @click="message_open()"
+  ></vue-feather>
+  <ul class="chat-dropdown onhover-show-div" :class="{ active: message }">
     <li>
       <div class="media">
         <img
@@ -50,4 +55,19 @@
 </template>
 
 
+<script>
+export default {
+  name: "Message",
+  data() {
+    return {
+      message: false,
+    };
+  },
+  methods: {
+    message_open() {
+      this.message = !this.message;
+    },
+  },
+};
+</script>
 

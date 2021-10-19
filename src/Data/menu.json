@@ -712,7 +712,7 @@
       "path": "/table/js-grid-table",
       "title": "Js Grid Table",
       "icon": "file-text",
-      "type": "sub"
+      "type": "link"
     },
     {
       "headTitle": "Applications",
@@ -744,17 +744,10 @@
       "active": false
     },
     {
-      "path": "/app/filemanager",
-      "title": "File manager",
-      "icon": "git-pull-request",
-      "type": "link",
-      "active": false
-    },
-    {
       "title": "Kanban Board",
       "path": "/app/kanban",
       "icon": "monitor",
-      "type": "sub",
+      "type": "link",
       "active": false
     },
     {
@@ -890,40 +883,40 @@
       "path": "/app/contacts",
       "title": "Contacts",
       "icon": "list",
-      "type": "sub",
+      "type": "link",
       "bookmark": true
     },
     {
       "path": "/app/task",
       "title": "Tasks",
       "icon": "check-square",
-      "type": "sub",
+      "type": "link",
       "bookmark": true
     },
     {
       "path": "/app/calendar",
       "title": "Calendar",
       "icon": "calendar",
-      "type": "sub",
+      "type": "link",
       "bookmark": true
     },
     {
       "path": "/pages/social-app",
       "title": "Social App",
       "icon": "zap",
-      "type": "sub"
+      "type": "link"
     },
     {
       "path": "/app/todo",
       "title": "Todo",
       "icon": "clock",
-      "type": "sub"
+      "type": "link"
     },
     {
       "path": "/pages/search",
       "title": "Search results",
       "icon": "search",
-      "type": "sub"
+      "type": "link"
     },
     {
       "headTitle": "Pages",
@@ -933,31 +926,25 @@
       "path": "/pages/landing-page",
       "title": "Landing Page",
       "icon": "navigation-2",
-      "type": "sub"
+      "type": "link"
     },
     {
       "path": "/pages/sample-page",
       "title": "Sample Page",
       "icon": "file",
-      "type": "sub"
+      "type": "link"
     },
     {
       "path": "/pages/internalization",
       "title": "internalization",
       "icon": "aperture",
-      "type": "sub"
+      "type": "link"
     },
     {
       "path": "/pages/starter-kit",
       "title": "Starter Kit",
       "icon": "anchor",
-      "type": "sub"
-    },
-    {
-      "path": "/pages/starter-kit",
-      "title": "Starter Kit",
-      "icon": "anchor",
-      "type": "sub"
+      "type": "link"
     },
     {
       "title": "Others",
@@ -1186,10 +1173,10 @@
       ]
     },
     {
-      "path": "/blog/faq",
+      "path": "/pages/Faq",
       "title": "FAQ",
       "icon": "help-circle",
-      "type": "sub"
+      "type": "link"
     },
     {
       "title": "Job Search",
@@ -1310,7 +1297,7 @@
       "path": "/pages/support",
       "title": "Support Ticket",
       "icon": "headphones",
-      "type": "sub"
+      "type": "link"
     }
   ]
 }

@@ -16,7 +16,7 @@
           <Mode />
         </li>
         <li class="onhover-dropdown">
-          <i data-feather="message-square"></i>
+          <!-- <i data-feather="message-square"></i> -->
           <Message />
         </li>
         <li class="onhover-dropdown p-0">
@@ -25,7 +25,7 @@
       </ul>
     </div>
     <div class="d-lg-none mobile-toggle pull-right w-auto">
-      <i data-feather="more-horizontal"></i>
+      <!-- <i data-feather="more-horizontal"></i> -->
     </div>
   </div>
 

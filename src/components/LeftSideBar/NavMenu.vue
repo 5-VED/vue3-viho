@@ -26,7 +26,7 @@
         <a
           href="javascript:void(0)"
           class="nav-link menu-title"
-          :class="{'active': menuItem.active}"
+          :class="{ active: menuItem.active }"
           v-if="menuItem.type == 'sub'"
           @click="setNavActive(menuItem, index)"
         >
@@ -40,22 +40,21 @@
           <div class="according-menu" v-if="menuItem.children">
             <!-- <i class="fa fa-angle-right"></i> -->
             <!-- <vue-feather type="chevron-right"></vue-feather> -->
-                          <vue-feather
-                :type="menuItem.active ? 'chevron-down' : 'chevron-right'"
-              ></vue-feather>
+            <vue-feather
+              :type="menuItem.active ? 'chevron-down' : 'chevron-right'"
+            ></vue-feather>
           </div>
         </a>
 
         <!-- Link -->
         <router-link
           :to="menuItem.path"
-          class="nav-submenu menu-content"
+          class="nav-link menu-title link-nav"
           v-if="menuItem.type == 'link'"
           router-link-exact-active
           exact
           v-on:click="hidesecondmenu()"
         >
-          <vue-feather :type="menuItem.icon" class="top"></vue-feather>
           <vue-feather :type="menuItem.icon"></vue-feather>
           <span>
             {{ menuItem.title }}
@@ -104,37 +103,30 @@
           >
             <!-- Sub -->
             <a
-              class="submenu-title"
               href="javascript:void(0)"
               v-if="childrenItem.type == 'sub'"
               @click="setNavActive(childrenItem, index)"
             >
               {{ childrenItem.title }}
-
               <!-- <label
                 :class="'badge badge-' + childrenItem.badgeType + ' pull-right'"
                 v-if="childrenItem.badgeType"
                 >{{ childrenItem.badgeValue }}</label
               > -->
 
-              <vue-feather
+              <!-- <vue-feather
                 :type="childrenItem.active ? 'chevron-down' : 'chevron-right'" v-if="childrenItem.children"
-              ></vue-feather>
+              ></vue-feather> -->
 
-              <!-- <i
-                class="fa pull-right mt-1"
-                v-bind:class="[
-                  childrenItem.active
-                    ? 'fa fa-angle-down'
-                    : 'fa fa-angle-right',
-                ]"
-                v-if="childrenItem.children"
-              ></i> -->
+              <div class="according-menu">
+                <vue-feather
+                  :type="childrenItem.active ? 'chevron-down' : 'chevron-right'"
+                ></vue-feather>
+              </div>
             </a>
 
             <!-- Link -->
             <router-link
-              class="submenu-title"
               :to="childrenItem.path"
               v-if="childrenItem.type == 'link'"
               router-link-exact-active
@@ -155,22 +147,19 @@
             </router-link>
             <!-- External Link -->
 
-            <a
-              :href="childrenItem.path"
-              v-if="childrenItem.type == 'extLink'"
-              class="submenu-title"
-            >
+            <a :href="childrenItem.path" v-if="childrenItem.type == 'extLink'">
               {{ childrenItem.title }}
-              <label
+              <!-- <label
                 :class="'badge badge-' + childrenItem.badgeType + ' pull-right'"
                 v-if="childrenItem.badgeType"
                 >{{ childrenItem.badgeValue }}</label
-              >
+              > -->
               <i
                 class="fa fa-angle-right pull-right mt-1"
                 v-if="childrenItem.children"
               ></i>
             </a>
+
             <!-- External Tab Link -->
             <a
               class="submenu-title"
@@ -179,11 +168,11 @@
               v-if="childrenItem.type == 'extTabLink'"
             >
               {{ childrenItem.title }}
-              <label
+              <!-- <label
                 :class="'badge badge-' + childrenItem.badgeType + ' pull-right'"
                 v-if="childrenItem.badgeType"
                 >{{ childrenItem.badgeValue }}</label
-              >
+              > -->
               <i
                 class="fa fa-angle-right pull-right mt-1"
                 v-if="childrenItem.children"
@@ -193,7 +182,9 @@
             <ul
               class="nav-sub-childmenu submenu-content"
               v-if="childrenItem.children"
-               v-bind:style="childrenItem.active? 'display:block' : 'display:none;'"
+              v-bind:style="
+                childrenItem.active ? 'display:block' : 'display:none;'
+              "
             >
               <li
                 v-for="(childrenSubItem, index) in childrenItem.children"
@@ -208,13 +199,13 @@
                   v-on:click="hidesecondmenu()"
                 >
                   {{ childrenSubItem.title }}
-                  <label
+                  <!-- <label
                     :class="
                       'badge badge-' + childrenSubItem.badgeType + ' pull-right'
                     "
                     v-if="childrenSubItem.badgeType"
                     >{{ childrenSubItem.badgeValue }}</label
-                  >
+                  > -->
                   <i
                     class="fa fa-angle-right pull-right"
                     v-if="childrenSubItem.children"
@@ -227,18 +218,21 @@
                   router-link-exact-active
                 >
                   {{ childrenSubItem.title }}
-                  <label
+
+                  <!-- <label
                     :class="
                       'badge badge-' + childrenSubItem.badgeType + ' pull-right'
                     "
                     v-if="childrenSubItem.badgeType"
                     >{{ childrenSubItem.badgeValue }}</label
-                  >
+                  > -->
+
                   <i
                     class="fa fa-angle-right pull-right"
                     v-if="childrenSubItem.children"
                   ></i>
                 </router-link>
+
                 <!-- External Tab Link -->
                 <router-link
                   :to="childrenSubItem.path"
@@ -246,13 +240,15 @@
                   router-link-exact-active
                 >
                   {{ childrenSubItem.title }}
-                  <label
+
+                  <!-- <label
                     :class="
                       'badge badge-' + childrenSubItem.badgeType + ' pull-right'
                     "
                     v-if="childrenSubItem.badgeType"
                     >{{ childrenSubItem.badgeValue }}</label
-                  >
+                  > -->
+
                   <i
                     class="fa fa-angle-right pull-right"
                     v-if="childrenSubItem.children"
@@ -274,9 +270,16 @@ export default {
   computed: {
     ...mapState({
       menuItems: (state) => state.menu.data,
+      width: (state) => state.menu.width,
     }),
   },
+  mounted() {
+    console.log("Data", this.menuItems);
+  },
   methods: {
+hidesecondmenu(){
+  console.log("i am working")
+},
     setNavActive(item) {
       this.$store.dispatch("menu/setNavActive", item);
       // if(this.layoutobject.split(' ').includes('compact-sidebar') && window.innerWidth > 991) {
@@ -287,9 +290,6 @@ export default {
       //   }
       // }
     },
-  },
-  mounted() {
-    console.log("Data", this.menuItems);
   },
 };
 </script>

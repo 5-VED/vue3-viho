@@ -14,18 +14,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'Mode',
-    data() {
-      return {
-        mixLayout: 'light-only',
-      };
+export default {
+  name: "Mode",
+  data() {
+    return {
+      mixLayout: "light-only",
+    };
+  },
+  methods: {
+    customizeMixLayout(val) {
+      this.mixLayout = val;
+      this.$store.dispatch("layout/setLayout", val);
     },
-    methods: {
-      customizeMixLayout(val) {
-        this.mixLayout = val;
-        this.$store.dispatch('layout/setLayout', val);
-      },
-    },
-  };
+  },
+};
 </script>
